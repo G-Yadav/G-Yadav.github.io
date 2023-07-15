@@ -1,0 +1,17 @@
+<nav>
+    <a  href="#" [ngClass]="{'active': xlink === 'step1'}" (click)="xlink='step1'">
+        <i class="fa fa-home" aria-hidden="true"></i>
+    </a>
+    <a href="#about" [ngClass]="{'active': xlink === 'step2'}" (click)="xlink='step2'">
+        <i class="fa fa-user" aria-hidden="true"></i>
+    </a>
+    <a href="#experience" [ngClass]="{'active': xlink === 'step3'}" (click)="xlink='step3'">
+        <i class="fa fa-code" aria-hidden="true"></i>
+    </a>
+    <a href="#skills" [ngClass]="{'active': xlink === 'step4'}" (click)="xlink='step4'">
+        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+    </a>
+    <a href="#contact" [ngClass]="{'active': xlink === 'step5'}" (click)="xlink='step5'">
+        <i class="fa fa-commenting" aria-hidden="true"></i>
+    </a>
+</nav>

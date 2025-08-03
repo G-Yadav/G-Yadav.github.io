@@ -16,20 +16,22 @@ import { HeaderSocialsComponent } from './header/header-socials/header-socials.c
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SkillsComponent } from './skills/skills.component';
+import { ProfileComponent } from './profile/profile.component';
 @NgModule({
   declarations: [
     AppComponent,
-    AboutComponent,
-    ContactComponent,
-    ExperienceComponent,
-    HeaderComponent,
-    FooterComponent,
-    NavComponent,
-    PortfolioComponent,
-    ServicesComponent,
-    CtaComponent,
-    HeaderSocialsComponent,
-    SkillsComponent
+    // AboutComponent,
+    // ContactComponent,
+    // ExperienceComponent,
+    // HeaderComponent,
+    // FooterComponent,
+    // ProfileComponent,
+    // NavComponent,
+    // PortfolioComponent,
+    // ServicesComponent,
+    // CtaComponent,
+    // HeaderSocialsComponent,
+    // SkillsComponent
   ],
   imports: [
     BrowserModule,

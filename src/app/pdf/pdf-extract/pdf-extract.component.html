@@ -1,0 +1,13 @@
+<div>
+  <h2>PDF Text Extractor</h2>
+  <input type="file" accept="application/pdf" (change)="onFileSelected($event)" />
+  <button (click)="extractText()" [disabled]="!selectedFile || loading">Extract Text</button>
+</div>
+
+<div *ngIf="loading">Extracting text, please wait...</div>
+<div *ngIf="error" style="color: red;">{{ error }}</div>
+
+<div *ngIf="extractedText">
+  <h3>Extracted Text:</h3>
+  <pre>{{ extractedText }}</pre>
+</div>

@@ -19,7 +19,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { ProfileComponent } from './profile/profile.component';
 @NgModule({
   declarations: [
-    AppComponent,
+    // AppComponent,
     // AboutComponent,
     // ContactComponent,
     // ExperienceComponent,
@@ -39,6 +39,6 @@ import { ProfileComponent } from './profile/profile.component';
     FontAwesomeModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  // bootstrap: [AppComponent]
 })
 export class AppModule { }
